@@ -12,8 +12,8 @@ function Testimonials() {
           <span className={classes["heading-text"]}>Depoimentos</span>
         </h1>
         <div className={classes["testimonials-container"]}>
-          <div className={classes["google-card"]}></div>
-          {/* <SliderTestimonials /> */}
+          {/* <div className={classes["google-card"]}></div> */}
+          <SliderTestimonials />
         </div>
       </div>
     </section>
