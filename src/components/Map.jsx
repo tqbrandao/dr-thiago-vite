@@ -9,23 +9,11 @@ function Map() {
   return (
     <section className={classes["section-map"]}>
       <div className={classes.map}>
-        <h1 className={classes[".map-heading"]}>
+        <h1 className={classes["map-heading"]}>
           <HiChatBubbleOvalLeftEllipsis />
           <span className={classes["heading-text"]}>Contato</span>
         </h1>
-        {/* <p className={classes.mapDescription}>
-          A Psiquiatria é a especialidade da medicina responsável pelo
-          acompanhamento dos Transtornos Mentais. Nós, médicos psiquiatras,
-          passamos por anos de treinamento intensivo para que sejamos capazes de
-          diagnosticar e tratar de forma adequada pessoas que necessitem.
-        </p>
-        <p className={classes.mapDescription}>
-          Pessoalmente, acredito numa psiquiatria aprofundada, na qual quero
-          conhecer os pacientes a fundo, para além de sintomas e doenças, e
-          ajudá-los da melhor maneira possível, seja com orientações, indicação
-          de psicoterapia, medicações, quando indicadas, e tratamento
-          multidisciplinar.
-        </p> */}
+
         <div className={classes.contact}>
           <div className={classes["map-container"]}>
             <h1 className={classes["map-header"]}>Localização:</h1>
@@ -42,16 +30,16 @@ function Map() {
             <h1 className={classes["info-header"]}>Informações:</h1>
             <div className={classes["info-inner-container"]}>
               <p className={classes["info-paragraph"]}>
-                <HiMapPin className={classes[".map-pin"]} />
+                <HiMapPin className={classes["map-pin"]} />
                 Multi Clínica – Av. Romeu Strazzi, 1445, Bairro Jardim Walkíria.
                 São José do Rio Preto – São Paulo.
               </p>
               <p className={classes["info-paragraph"]}>
-                <HiPhone />
+                <HiPhone className={classes["map-phone"]} />
                 (17) 9 9618-9285
               </p>
               <p className={classes["info-paragraph"]}>
-                <HiMail />
+                <HiMail className={classes["map-mail"]} />
                 thiago_qb@hotmail.com
               </p>
             </div>

@@ -13,7 +13,7 @@ function Testimonials() {
         </h1>
         <div className={classes["testimonials-container"]}>
           {/* <div className={classes["google-card"]}></div> */}
-          <SliderTestimonials />
+          {/* <SliderTestimonials /> */}
         </div>
       </div>
     </section>

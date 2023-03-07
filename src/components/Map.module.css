@@ -49,9 +49,6 @@
   margin-bottom: 3rem;
 }
 
-.info-container {
-}
-
 .info-inner-container {
   display: flex;
   flex-direction: column;
@@ -65,7 +62,17 @@
 
 .map-pin {
   /* width: 1.5rem; */
-  font-size: 3rem;
+  font-size: 6rem;
+}
+
+.map-phone {
+  /* width: 1.5rem; */
+  font-size: 2.5rem;
+}
+
+.map-mail {
+  /* width: 1.5rem; */
+  font-size: 2.7rem;
 }
 
 .info-paragraph {
