@@ -1,10 +1,10 @@
-.section-testimonials {
-  padding: 6.4rem 0 12rem 0;
+.section-clinic {
+  padding: 6.4rem 0 6.4rem 0;
   /* background-color: #ebebeb; */
   background-color: #fff;
 }
 
-.testimonials {
+.clinic {
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
@@ -15,54 +15,52 @@
   color: #333;
 }
 
-.testimonials-container {
-  max-width: 120rem;
-  margin: 0 auto;
-  /* display: grid; */
+.clinic-container {
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  /* align-items: center; */
+  align-items: center;
 }
 
-.testimonials-heading {
+.clinic-heading {
   font-weight: 700;
+  /* color: #010b26; */
   color: #212529;
   font-size: 5.2rem;
   line-height: 1.05;
   display: flex;
   align-items: center;
-  gap: 2.8rem;
 }
 
 .heading-text {
-  /* padding-left: 2.6rem; */
+  padding-left: 2.6rem;
 }
 
 .heading-highlight {
   color: #ff6700;
   /* color: #cc5200; */
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 0.25rem;
   font-size: 1.8rem;
   /* font-style: italic; */
 }
 
-.testimonials-description {
+.clinic-description {
   font-size: 2rem;
   line-height: 1.8;
   /* margin-bottom: 4.8rem; */
 }
 
-.testimonials-img-box {
+.clinic-img-box {
   text-align: center;
   /* padding-right: 9.6rem; */
 }
 
-.testimonials-img {
+.clinic-img {
   width: 70%;
 }
 
-.testimonials-text-box {
+.clinic-text-box {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
@@ -71,22 +69,29 @@
 /* --------------- MEDIA QUERIES -------------- */
 
 @media (max-width: 34em) {
-  .section-testimonials {
+  .section-clinic {
     padding: 4.8rem 0 4.8rem 0;
   }
 
-  .testimonials {
+  .clinic {
     padding: 0 1.2rem;
   }
 
-  .testimonials-heading {
-    font-size: 4.2rem;
-    gap: 2rem;
-    /* justify-content: center; */
-    /* align-items: center; */
+  .clinic-container {
+    grid-template-columns: 1fr;
+    gap: 4.6rem;
   }
 
-  .about-description {
+  .clinic-heading {
+    font-size: 4.2rem;
+    /* justify-content: center; */
+  }
+
+  .heading-highlight {
+    text-align: center;
+  }
+
+  .clinic-description {
     text-align: center;
   }
 }

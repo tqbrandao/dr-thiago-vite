@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "./slick.css";
 import "./slick-theme.css";
-import testimonialsData from "./testimonials.json";
+import testimonialsData from "../../../../data/testimonials.json";
 import Card from "../Card";
 
 function SampleNextArrow(props) {
@@ -67,7 +67,6 @@ function SliderTestimonials() {
 
   return (
     <div>
-      <h2> Responsive </h2>
       <Slider {...settings}>
         {testimonialsData.map((testimonial) => {
           return (
