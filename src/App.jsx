@@ -14,6 +14,11 @@ import Clinic from "./components/Clinic";
 //TODO: DESIGN DE FORMA GERAL
 //TODO: LOGO
 
+//TODO: CORRIGIR TODOS OS LINKS (_BLANK, etc)
+//TODO: CORRIGIR TAMANHO TEXTO DA LOGO
+//TODO: FAVICON E TITULO DO SITE
+//TODO: SEO COM REACT HELMET?
+
 function App() {
   return (
     <Layout>

@@ -1,7 +1,8 @@
 import React from "react";
 import classes from "./Clinic.module.css";
-// import Button from "./UI/Button";
+import Button from "./UI/Button";
 import { HiOfficeBuilding } from "react-icons/hi";
+import { HiMapPin } from "react-icons/hi2";
 import SliderClinic from "./UI/SliderClinic/SliderClinic";
 
 function Clinic() {
@@ -11,34 +12,32 @@ function Clinic() {
         <h1 className={classes["clinic-heading"]}>
           {" "}
           <HiOfficeBuilding />
-          <span className={classes["heading-text"]}>Conheça meu espaço</span>
+          <span className={classes["heading-text"]}>Nosso espaço</span>
         </h1>
         <div className={classes["clinic-container"]}>
           <div className={classes["clinic-text-box"]}>
-            <h2 className={classes["heading-highlight"]}>
-              Psiquiatra em Rio Preto - SP
-            </h2>
+            <h2 className={classes["heading-highlight"]}>A clínica</h2>
             <p className={classes["clinic-description"]}>
-              Meu nome é Thiago Queiroz Brandão, me formei em Medicina pela
-              Universidade Federal de Uberlândia (UFU) e concluí a residência
-              médica em Psiquiatria pela Universidade Federal de Goiás (UFG).
-              Desde antes do início dos meus estudos em medicina, sempre tive
-              apreço pelo estudo das áreas humanas, como filosofia, história e
-              sociologia. Durante a faculdade de medicina, me aproximei da
-              especialidade médica mais relacionada a tais temas: a Psiquiatria.
-              Então fiz minha residência médica na área e sou a cada dia mais
-              apaixonado por ela. Ter a oportunidade de ajudar pessoas em
-              sofrimento mental me move a estudar mais a cada dia e me manter
-              atualizado. Tenho experiência em emergências psiquiátricas e
-              ambulatórios.
+              Localizado em região privilegiada em São José do Rio Preto,
+              próximo ao Plaza Avenida Shopping. Contamos com estacionamento
+              próprio, gratuito, com acessibilidade e conforto. Ambiente
+              acolhedor, aconchegante, calmo e adequado para realização de
+              consultas psiquiátricas. Seja bem vindo!
             </p>
+            {/* <p className={classes["clinic-description"]}>Seja bem vindo!</p> */}
+            <a
+              href="https://www.google.com.br/maps/place/Dr.+Thiago+Queiroz+Brand%C3%A3o+-+M%C3%A9dico+Psiquiatra/@-20.8305726,-49.388392,17z/data=!3m1!4b1!4m6!3m5!1s0x94bdb33952917ec5:0x2b2f70fb0c449c27!8m2!3d-20.8305726!4d-49.386198!16s%2Fg%2F11pww_5lkz"
+              className={classes["address-link"]}
+            >
+              <HiMapPin />
+              Multi Clínica – Av. Romeu Strazzi, 1445, Bairro Jardim Walkíria.
+              São José do Rio Preto – São Paulo.
+            </a>
+            <div className={classes["btn-container"]}>
+              <Button className={classes.btn}>Agendar Consulta</Button>
+            </div>
           </div>
           <div className={classes["clinic-img-box"]}>
-            {/* <img
-              src={aboutImg}
-              alt="Foto do Dr. Thiago"
-              className={classes["about-img"]}
-            ></img> */}
             <SliderClinic />
           </div>
         </div>

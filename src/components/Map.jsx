@@ -45,8 +45,6 @@ function Map() {
             </div>
           </div>
         </div>
-
-        {/* <ElfsightWidget widgetID="8a5c04ee-aa77-4e51-adc0-dea016d7ec21" /> */}
       </div>
     </section>
   );

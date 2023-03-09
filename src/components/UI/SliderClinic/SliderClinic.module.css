@@ -2,21 +2,21 @@
   /* max-width: 120rem; */
   /* margin: 0 auto; */
   position: relative;
-  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
+  /* overflow: hidden; */
 }
 
 .image {
-  max-width: 38rem;
+  max-width: 70%;
   border-radius: 10px;
 }
 
 .right-arrow {
   position: absolute;
   top: 50%;
-  right: 3.2rem;
+  right: 2rem;
   font-size: 3rem;
   color: #212529;
   z-index: 10;
@@ -27,7 +27,7 @@
 .left-arrow {
   position: absolute;
   top: 50%;
-  left: 3.2rem;
+  left: 2rem;
   font-size: 3rem;
   color: #212529;
   z-index: 10;
@@ -44,4 +44,18 @@
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
+}
+
+/* --------------- MEDIA QUERIES -------------- */
+
+@media (max-width: 34em) {
+  .left-arrow {
+    left: 0.5rem;
+  }
+  .right-arrow {
+    right: 0.5rem;
+  }
+  .image {
+    max-width: 75%;
+  }
 }
