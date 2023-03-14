@@ -34,14 +34,21 @@ function Map() {
                 Multi Clínica – Av. Romeu Strazzi, 1445, Bairro Jardim Walkíria.
                 São José do Rio Preto – São Paulo.
               </p>
-              <p className={classes["info-paragraph"]}>
-                <HiPhone className={classes["map-phone"]} />
-                (17) 9 9618-9285
-              </p>
-              <p className={classes["info-paragraph"]}>
-                <HiMail className={classes["map-mail"]} />
-                thiago_qb@hotmail.com
-              </p>
+              <a className={classes["info-links"]} href="tel:+5517996189285">
+                <p className={classes["info-paragraph"]}>
+                  <HiPhone className={classes["map-phone"]} />
+                  (17) 9 9618-9285
+                </p>
+              </a>
+              <a
+                className={classes["info-links"]}
+                href="mailto:thiago_qb@hotmail.com"
+              >
+                <p className={classes["info-paragraph"]}>
+                  <HiMail className={classes["map-mail"]} />
+                  thiago_qb@hotmail.com
+                </p>
+              </a>
             </div>
           </div>
         </div>

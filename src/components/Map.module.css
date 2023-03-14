@@ -81,6 +81,19 @@
   gap: 2rem;
 }
 
+.info-links:link,
+.info-links:visited {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.info-links:hover,
+.info-links:active {
+  color: #ff6700;
+}
+
 /* --------------- MEDIA QUERIES -------------- */
 
 @media (max-width: 34em) {

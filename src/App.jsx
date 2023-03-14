@@ -1,5 +1,5 @@
 import "./App.css";
-import React from "react";
+import React, { useRef } from "react";
 import Layout from "./components/Layout/Layout";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -18,6 +18,7 @@ import Clinic from "./components/Clinic";
 //TODO: CORRIGIR TAMANHO TEXTO DA LOGO
 //TODO: FAVICON E TITULO DO SITE
 //TODO: SEO COM REACT HELMET?
+//TODO: CORRIGIR TEXT ALIGN DO FOOTER
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
         <About />
         <Clinic />
         <Treatment />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Map />
       </main>
     </Layout>

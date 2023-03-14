@@ -2,7 +2,8 @@ import React from "react";
 import { useRef } from "react";
 import "../../App.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../../assets/logo-white-footer.png";
+// import logo from "../../assets/logo-white-footer.png";
+import logo from "../../assets/logo-white2.png";
 
 export default function Header() {
   const navRef = useRef();
@@ -22,7 +23,12 @@ export default function Header() {
         <a href="/#">Nosso espaço</a>
         <a href="/#">Tratamentos</a>
         <a href="/#">Contato</a>
-        <a href="/#">Agendar Consulta</a>
+        <a
+          href="https://www.doctoralia.com.br/thiago-queiroz-brandao/psiquiatra/sao-jose-do-rio-preto"
+          target="_blank"
+        >
+          Agendar consulta (Online)
+        </a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>

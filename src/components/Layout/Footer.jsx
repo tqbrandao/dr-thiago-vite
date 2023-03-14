@@ -17,7 +17,8 @@ export default function Footer() {
         </div>
         <div className={classes["footer-text"]}>
           <p className={classes["footer-header"]}>
-            © <strong>Dr. Thiago Brandão</strong> - Todos os direitos reservados
+            © 2023 - <strong>Dr. Thiago Brandão</strong> - Todos os direitos
+            reservados
           </p>
         </div>
       </div>

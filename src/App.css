@@ -108,7 +108,8 @@ nav a:hover {
 }
 
 .nav-logo {
-  width: 13rem;
+  width: 12rem;
+  /* width: 6rem; */
 }
 
 header .nav-btn {

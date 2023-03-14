@@ -11,6 +11,7 @@
   display: flex;
   gap: 1.6rem;
   cursor: pointer;
+  align-items: center;
 }
 
 .btn:hover {
@@ -20,6 +21,10 @@
 
 .btn:focus {
   outline: none;
+}
+
+.whats-logo {
+  font-size: 2.8rem;
 }
 
 @media (max-width: 34em) {
