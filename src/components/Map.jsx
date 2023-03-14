@@ -29,11 +29,16 @@ function Map() {
           <div className={classes["info-container"]}>
             <h1 className={classes["info-header"]}>Informações:</h1>
             <div className={classes["info-inner-container"]}>
-              <p className={classes["info-paragraph"]}>
-                <HiMapPin className={classes["map-pin"]} />
-                Multi Clínica – Av. Romeu Strazzi, 1445, Bairro Jardim Walkíria.
-                São José do Rio Preto – São Paulo.
-              </p>
+              <a
+                className={classes["info-links"]}
+                href="https://www.google.com.br/maps/place/Dr.+Thiago+Queiroz+Brand%C3%A3o+-+M%C3%A9dico+Psiquiatra/@-20.8305726,-49.388392,17z/data=!3m1!4b1!4m6!3m5!1s0x94bdb33952917ec5:0x2b2f70fb0c449c27!8m2!3d-20.8305726!4d-49.386198!16s%2Fg%2F11pww_5lkz"
+              >
+                <p className={classes["info-paragraph"]}>
+                  <HiMapPin className={classes["map-pin"]} />
+                  Multi Clínica – Av. Romeu Strazzi, 1445, Bairro Jardim
+                  Walkíria. São José do Rio Preto – São Paulo.
+                </p>
+              </a>
               <a className={classes["info-links"]} href="tel:+5517996189285">
                 <p className={classes["info-paragraph"]}>
                   <HiPhone className={classes["map-phone"]} />

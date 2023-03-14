@@ -17,8 +17,7 @@
   font-weight: 700;
   font-size: 5.2rem;
   line-height: 1.05;
-  display: flex;
-  /* align-items: center; */
+  display: flex;  
   gap: 2.8rem;
 }
 
@@ -28,14 +27,12 @@
 
 .treatment-description {
   font-size: 2rem;
-  line-height: 1.8;
-  /* margin-bottom: 0.8rem; */
+  line-height: 1.8;  
 }
 
 .accordion-container {
   display: flex;
-  justify-content: center;
-  /* gap: 6.4rem; */
+  justify-content: center;  
 }
 
 .accordion {
@@ -46,8 +43,8 @@
   background: #ebebeb;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-bottom: 0.5rem;
-  padding: 1rem 2rem;
+  margin-bottom: .8rem;
+  padding: 1.4rem 3rem;
   cursor: pointer;
   position: relative;
 }
@@ -56,10 +53,7 @@
   color: #010b26;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
+  text-transform: uppercase;  
 }
 
 .title span {
@@ -74,8 +68,7 @@
   text-align: center;
 }
 
-.content {
-  /* color: #8b7f75; */
+.content {  
   color: #606060;
   max-height: 0;
   overflow: hidden;
@@ -101,31 +94,20 @@
   .treatment {
     padding: 0 1.2rem;
   }
-
-  /* .about-container {
-    grid-template-columns: 1fr;
-    gap: 4.6rem;
-  } */
+  
 
   .treatment-heading {
-    font-size: 4.2rem;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
-    /* gap: 0; */
+    font-size: 4.2rem;    
   }
 
   .item {
-    text-align: center;
-    /* background: #ebebeb;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-bottom: 0.5rem;
-    padding: 1rem 2rem; */
+    text-align: center;    
   }
 
-  .title {
-    /* justify-content: center; */
-    /* text-align: center; */
-  }
+  .title h2 {  
+  font-size: 1.7rem;
+  /* color: #e65d00; */
+  /* letter-spacing: 0.2rem;  */
+}
+  
 }

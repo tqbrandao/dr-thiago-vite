@@ -2,7 +2,6 @@ import React from "react";
 import { useRef } from "react";
 import "../../App.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-// import logo from "../../assets/logo-white-footer.png";
 import logo from "../../assets/logo-white2.png";
 
 export default function Header() {
@@ -20,6 +19,7 @@ export default function Header() {
       <nav className="navbar" ref={navRef}>
         <a
           onClick={() => {
+            showNavbar();
             const heroRef = document.querySelector("#hero");
             heroRef.scrollIntoView({ behavior: "smooth" });
           }}
@@ -28,6 +28,7 @@ export default function Header() {
         </a>
         <a
           onClick={() => {
+            showNavbar();
             const aboutRef = document.querySelector("#about");
             aboutRef.scrollIntoView({ behavior: "smooth" });
           }}
@@ -36,6 +37,7 @@ export default function Header() {
         </a>
         <a
           onClick={() => {
+            showNavbar();
             const clinicRef = document.querySelector("#clinic");
             clinicRef.scrollIntoView({ behavior: "smooth" });
           }}
@@ -44,6 +46,7 @@ export default function Header() {
         </a>
         <a
           onClick={() => {
+            showNavbar();
             const treatmentRef = document.querySelector("#treatment");
             treatmentRef.scrollIntoView({ behavior: "smooth" });
           }}
@@ -52,6 +55,7 @@ export default function Header() {
         </a>
         <a
           onClick={() => {
+            showNavbar();
             const mapRef = document.querySelector("#map");
             mapRef.scrollIntoView({ behavior: "smooth" });
           }}

@@ -24,7 +24,6 @@ function Clinic() {
               acolhedor, aconchegante, calmo e adequado para realização de
               consultas psiquiátricas. Seja bem vindo!
             </p>
-            {/* <p className={classes["clinic-description"]}>Seja bem vindo!</p> */}
             <a
               href="https://www.google.com.br/maps/place/Dr.+Thiago+Queiroz+Brand%C3%A3o+-+M%C3%A9dico+Psiquiatra/@-20.8305726,-49.388392,17z/data=!3m1!4b1!4m6!3m5!1s0x94bdb33952917ec5:0x2b2f70fb0c449c27!8m2!3d-20.8305726!4d-49.386198!16s%2Fg%2F11pww_5lkz"
               className={classes["address-link"]}
