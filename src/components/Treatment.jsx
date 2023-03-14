@@ -15,7 +15,7 @@ function Treatment() {
   };
 
   return (
-    <section className={classes["section-treatment"]}>
+    <section className={classes["section-treatment"]} id={"treatment"}>
       <div className={classes.treatment}>
         <h1 className={classes["treatment-heading"]}>
           {" "}

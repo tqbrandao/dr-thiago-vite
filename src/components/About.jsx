@@ -5,7 +5,7 @@ import aboutImg from "../assets/about-img.png";
 
 function About() {
   return (
-    <section className={classes["section-about"]}>
+    <section className={classes["section-about"]} id="about">
       <div className={classes.about}>
         <h1 className={classes["about-heading"]}>
           {" "}

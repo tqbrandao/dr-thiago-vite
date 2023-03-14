@@ -5,7 +5,7 @@ import Button from "./UI/Button";
 
 function Hero() {
   return (
-    <section className={classes["section-hero"]}>
+    <section className={classes["section-hero"]} id={"hero"}>
       <div className={classes.hero}>
         <div className={classes["hero-text"]}>
           <h1 className={classes["hero-heading"]}>

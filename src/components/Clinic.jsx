@@ -7,7 +7,7 @@ import SliderClinic from "./UI/SliderClinic/SliderClinic";
 
 function Clinic() {
   return (
-    <section className={classes["section-clinic"]}>
+    <section className={classes["section-clinic"]} id={"clinic"}>
       <div className={classes.clinic}>
         <h1 className={classes["clinic-heading"]}>
           {" "}

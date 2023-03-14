@@ -18,11 +18,46 @@ export default function Header() {
         <img src={logo} alt="Logo Dr. Thiago" className="nav-logo" />
       </a>
       <nav className="navbar" ref={navRef}>
-        <a href="/#">Home</a>
-        <a href="/#">Sobre mim</a>
-        <a href="/#">Nosso espaço</a>
-        <a href="/#">Tratamentos</a>
-        <a href="/#">Contato</a>
+        <a
+          onClick={() => {
+            const heroRef = document.querySelector("#hero");
+            heroRef.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Home
+        </a>
+        <a
+          onClick={() => {
+            const aboutRef = document.querySelector("#about");
+            aboutRef.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Sobre mim
+        </a>
+        <a
+          onClick={() => {
+            const clinicRef = document.querySelector("#clinic");
+            clinicRef.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Nosso espaço
+        </a>
+        <a
+          onClick={() => {
+            const treatmentRef = document.querySelector("#treatment");
+            treatmentRef.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Tratamentos
+        </a>
+        <a
+          onClick={() => {
+            const mapRef = document.querySelector("#map");
+            mapRef.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Contato
+        </a>
         <a
           href="https://www.doctoralia.com.br/thiago-queiroz-brandao/psiquiatra/sao-jose-do-rio-preto"
           target="_blank"

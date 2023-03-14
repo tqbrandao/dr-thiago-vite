@@ -7,7 +7,7 @@ import { HiMail } from "react-icons/hi";
 
 function Map() {
   return (
-    <section className={classes["section-map"]}>
+    <section className={classes["section-map"]} id={"map"}>
       <div className={classes.map}>
         <h1 className={classes["map-heading"]}>
           <HiChatBubbleOvalLeftEllipsis />
